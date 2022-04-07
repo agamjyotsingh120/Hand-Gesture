@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hand Gesture Web App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" integrity="sha512-AQMSn1qO6KN85GOfvH6BWJk46LhlvepblftLHzAv1cdIyTWPBKHX+r+NOXVVw6+XQpeW4LJk/GTmoP48FLvblQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="col xs 12 header_div text-center">
+        <Br>
+          <h2 >Hand Gesture Web App</h2>
+          <span>&#9996;</span>
+      <span>&#128076;</span>
+      <span>&#128077;</span>
+
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 main">
+            <label>Webcam View :- </label>
+          <div id="camera"></div>
+          <br><br>
+          <button onclick="take_snapshot();" id="b1" >Capture Image</button>
+          
+    </div>
+    
+    <div class="col-md-4 col-sm-12 col-xs-12 book">
+
+        <label>Prediction 1-</label>
+        <p class="emotion_name" id="emotion_namer"></p>
+        <p class="emoji" id="update_emoji"></p>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12 note">
+    <label>Snapshot :-  </label>
+  <div id="result"></div>
+  <br><br>
+  <button onclick="check();" id="b2" >Predict Gesture</button>
+
+</div>
+
+<script src="main.js"></script>    
+</body>
+</html>

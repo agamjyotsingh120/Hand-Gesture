@@ -1,0 +1,63 @@
+.header_div{
+    background-color:blue;
+    margin-left:400px;
+    margin-right:400px;
+    margin-top:30px;
+    margin-bottom:40px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+}
+body{
+background-color:aquamarine;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+#result_emotion_name 
+{
+  color: black;
+}
+.text-center{
+  font-family: 'Lobster', cursive;
+}
+.main{
+  font-family: 'Dancing Script', cursive;
+  font-size:25px;
+}
+
+.book{
+  font-family: 'Dancing Script', cursive;
+  font-size:25px;
+  background-color:blue;
+  color:white;
+  border-radius:10px;
+  text-align: center;
+}
+
+.note{
+font-family: 'Dancing Script', cursive;
+font-size:25px;
+}
+
+#b1{
+ color:white;
+ background-color:blue;
+ font-size:25px;
+ border-radius:10px;
+ align-items: center;
+ }
+ #b2{
+   color:white;
+  background-color:blue;
+  font-size:25px;
+  border-radius: 10px;
+  margin-left:30px;
+ }
